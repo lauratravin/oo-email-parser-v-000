@@ -12,6 +12,6 @@ class EmailParser
     #  a =[]
     a = @mail.split(/[\s,","]/)
     a.delete("")
-    a
+    a = a.uniq
   end
 end
