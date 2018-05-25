@@ -9,7 +9,7 @@ class EmailParser
      @mail = m
    end
   def parse
-      @mail.split(/[\s,","]/)
-
+      a = @mail.split(/[\s,","]/)
+      a.delete("")
   end
 end
