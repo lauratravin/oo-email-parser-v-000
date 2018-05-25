@@ -7,7 +7,7 @@ class EmailParser
   attr_accessor :mail
    def initialize(m)
      @mail = m
-   end   
+   end
   def parse
       @mail.split(",")
   end
