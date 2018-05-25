@@ -4,10 +4,10 @@
 # or whitespace (' ').
 
 class EmailParser
-  
+
 
   def parse(m)
-
+      mail = m.split(",")
   end
 
 end
