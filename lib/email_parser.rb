@@ -12,5 +12,6 @@ class EmailParser
     #  a =[]
     a = @mail.split(/[\s,","]/)
     a.delete("")
+    a
   end
 end
