@@ -10,7 +10,7 @@ class EmailParser
    end
   def parse
     #  a =[]
-     @mail.split(/[\s,","]/)
+    a = @mail.split(/[\s,","]/)
     #  a.delete("")
   end
 end
